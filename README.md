@@ -1,4 +1,4 @@
-## Autoría IA
+## AUTORIA IA
 Este proyecto usa IA como asistente según lineamientos del profesor. Todos los prompts utilizados se registran textualmente al final del documento para efectos de transparencia académica.
 
 # PROYECTO
