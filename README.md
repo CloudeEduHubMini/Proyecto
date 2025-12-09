@@ -28,7 +28,7 @@ Infraestructura día 1:
 - Azure App Service creado
 
 
-# Prompts IA usados
+# PROMPTS IA USADOS
 
 ## Prompt todos
 "Diagnóstico TecNM cloud gaps México 2025".
