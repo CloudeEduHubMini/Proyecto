@@ -20,6 +20,15 @@ Infraestructura día 1:
 - Azure App Service PHP
 - Integración Microsoft Teams (día 2)
 
+## Setup Infra (IaC)
+Prompt usado para infraestructura (IaC) mediante ARM templates.
+- La infraestructura inicial fue provisionada en Azure usando VM B1s y App Service PHP en región Mexico Central.
+- Virtual Machine tamaño Standard_D2s (general purpose)
+- App Service PHP Linux
+- región Mexico Central
+- mismos Resource Group
+- provisionado manualmente desde Azure Portal
+
 ### Entregables día 1
 - Repositorio inicial
 - Blueprint creado
@@ -35,6 +44,10 @@ Infraestructura día 1:
 
 ## Prompt Arquitecto + DevOps
 "Azure Free Tier hybrid education platform 2025: B1s VM (Mexico Central), App Service PHP, Teams API, VirtualBox private sync. Draw.io diagram + ARM templates".
+
+# Prompt DevOps + Backend (IaC)
+"ARM template: B1s VM HA + App Service PHP"
+
 
 
 # DÍA 2: EJECUCIÓN (Despliegue + Integración)
