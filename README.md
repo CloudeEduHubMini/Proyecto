@@ -28,12 +28,12 @@ Infraestructura día 1:
 - Azure App Service creado
 
 
-## Prompts IA usados
+# Prompts IA usados
 
-# Prompt todos
+## Prompt todos
 "Diagnóstico TecNM cloud gaps México 2025".
 
-# Prompt Arquitecto + DevOps
+## Prompt Arquitecto + DevOps
 "Azure Free Tier hybrid education platform 2025: B1s VM (Mexico Central), App Service PHP, Teams API, VirtualBox private sync. Draw.io diagram + ARM templates".
 
 
