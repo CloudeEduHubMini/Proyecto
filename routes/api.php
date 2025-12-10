@@ -1,6 +1,14 @@
-use App\Http\Controllers\UsuarioController;
+<?php
+
+use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
-// Ya no necesitas middleware de web aquí por ahora
-Route::get('/usuarios', [UsuarioController::class, 'index']);
-Route::post('/login', [UsuarioController::class, 'login']);
+// Laravel ya agrega el prefijo "/api" automáticamente a este archivo.
+// Por eso, cambiamos '/api/tasks' a solo '/tasks'.
+
+Route::get('/tasks', function () {
+    return response()->json([
+        ["id" => 1, "title" => "Estudiar Azure", "status" => "Pending"],
+        ["id" => 2, "title" => "Leer documentación Vite", "status" => "Done"],
+    ]);
+});
