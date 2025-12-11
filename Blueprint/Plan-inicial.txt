@@ -1,0 +1,4 @@
+Plan inicial:
+Día 1: Infra + Arquitectura + Diagnóstico.
+Día 2: Backend + API + pruebas.
+Día 3: Documentación + despliegue final + video demo.
