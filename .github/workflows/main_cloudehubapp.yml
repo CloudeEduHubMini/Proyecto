@@ -23,22 +23,24 @@ jobs:
         with:
           php-version: '8.2'
 
+      # CAMBIO 1: Buscar composer.json DENTRO de la carpeta backend
       - name: Check if composer.json exists
         id: check_files
         uses: andstor/file-existence-action@v1
         with:
-          files: 'composer.json'
+          files: 'backend/composer.json'
 
+      # CAMBIO 2: Entrar a la carpeta backend (cd backend) antes de ejecutar comandos
       - name: Run composer install if composer.json exists
         if: steps.check_files.outputs.files_exists == 'true'
-        run: composer validate --no-check-publish && composer install --prefer-dist --no-progress
+        run: cd backend && composer validate --no-check-publish && composer install --prefer-dist --no-progress
 
-
+      # CAMBIO 3: Subir específicamente la carpeta backend como el "sitio"
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v4
         with:
           name: php-app
-          path: .
+          path: backend/
 
   deploy:
     runs-on: ubuntu-latest
@@ -67,4 +69,3 @@ jobs:
           app-name: 'cloudehubapp'
           slot-name: 'Production'
           package: .
-          
