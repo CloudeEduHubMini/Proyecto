@@ -62,12 +62,14 @@ El objetivo principal de este día fue el desarrollo de la API RESTful con Larav
 
 "Para probar localmmente como puedo conectarme al backend en otra computadora".
 
+"Npm run dev para correr el servidor de frontend".
 
+### Prompst utiliados por parte del backend:
 
-## Backend: Desarrollo de la API de Tareas (Laravel)
+# Backend: Desarrollo de la API de Tareas (Laravel)
 El rol de Backend Dev se enfocó en implementar el acceso a la base de datos y exponer la API de lectura de tareas, esencial para la funcionalidad del Task CRUD.
 
-### Prompts utilizados por parte del Backend
+# Prompts utilizados por parte del Backend
 "Laravel 11: Implementar Tareas CRUD multitenant, Autenticación de Usuario y Sincronización de Webhook de Teams."
 
 "Generar Base de Datos con Tablas y Datos de Prueba."
@@ -80,5 +82,17 @@ El rol de Backend Dev se enfocó en implementar el acceso a la base de datos y e
 
 "Git Strategy: Comando para aplicar movimiento de código a la subcarpeta '/backend' y forzar la sincronización (push) con el repositorio remoto."
 
-# DÍA 3: EVALUACIÓN + PRESENTACIÓN
 
+### Entregables día 2
+- App funcional (login + tasks + Teams sync).
+- Pruebas load (latencia < 300ms).
+- CI/CD pipeline.
+
+# DÍA 3: EVALUACIÓN + PRESENTACIÓN
+Se presentó de manerea presencial las diapositivas corresponidentes las cuales representan la arquitectura base de Cloud Edu Hub Mini, también se presentó el inconveniente acerca de que no se pudo desplegar en su totalidad la app en la nube por problemas más grandes que nosotros, pero se logró localmente.
+
+### Entregables día 3
+- Repo público (este).
+- Video 3min (dobleteamos).
+- Informe 8págs.
+- URL pública app. (No se logró por los diversos problemas en nube).
