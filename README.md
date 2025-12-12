@@ -62,12 +62,12 @@ El objetivo principal de este día fue el desarrollo de la API RESTful con Larav
 
 "Para probar localmmente como puedo conectarme al backend en otra computadora".
 
-### Prompst utiliados por parte del backend:
 
-# Backend: Desarrollo de la API de Tareas (Laravel)
+
+## Backend: Desarrollo de la API de Tareas (Laravel)
 El rol de Backend Dev se enfocó en implementar el acceso a la base de datos y exponer la API de lectura de tareas, esencial para la funcionalidad del Task CRUD.
 
-# Prompts utilizados por parte del Backend
+### Prompts utilizados por parte del Backend
 "Laravel 11: Implementar Tareas CRUD multitenant, Autenticación de Usuario y Sincronización de Webhook de Teams."
 
 "Generar Base de Datos con Tablas y Datos de Prueba."
