@@ -53,6 +53,17 @@ Prompt usado para infraestructura (IaC) mediante ARM templates.
 # DÍA 2: EJECUCIÓN (Despliegue + Integración)
 El objetivo principal de este día fue el desarrollo de la API RESTful con Laravel y la implementación de la capa de acceso a datos. Se logró la conexión estable con el Frontend mediante un túnel público (ngrok).
 
+
+## LISTA COMPLETA DE PROMPTS USASDOS
+
+### Prompts utilizados por parte del frontend:
+"React dashboard: tasks + metrics Azure integration".
+"Como establezco la conexión con el backend que está haciendo el desarrolador de backend".
+"Como se implementan las métricas de azure en la interfáz".
+"Para probar localmmente como puedo conectarme al backend en otra computadora".
+
+### Prompst utiliados por parte del backend:
+
 # Backend: Desarrollo de la API de Tareas (Laravel)
 El rol de Backend Dev (Estudiante 3) se enfocó en implementar el acceso a la base de datos y exponer la API de lectura de tareas, esencial para la funcionalidad del Task CRUD.
 
