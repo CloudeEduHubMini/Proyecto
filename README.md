@@ -1,6 +1,3 @@
-
-
-
 # PROYECTO
 Repositorio de dedicado a los despliegues continuo de la plataforma educativa híbrida funcional (IaaS + PaaS + SaaS).
 
@@ -86,4 +83,4 @@ El rol de Backend Dev (Estudiante 3) se enfocó en implementar el acceso a la ba
 "GitHub Actions: Laravel Docker build test Include rollback + secrets management."
 
 # DÍA 3: EVALUACIÓN + PRESENTACIÓN
- de32d5d6e126400b5ff58455c4994ec7fdbfcc39
+
