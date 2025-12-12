@@ -55,8 +55,11 @@ El objetivo principal de este día fue el desarrollo de la API RESTful con Larav
 
 ### Prompts utilizados por parte del frontend:
 "React dashboard: tasks + metrics Azure integration".
+
 "Como establezco la conexión con el backend que está haciendo el desarrolador de backend".
+
 "Como se implementan las métricas de azure en la interfáz".
+
 "Para probar localmmente como puedo conectarme al backend en otra computadora".
 
 ### Prompst utiliados por parte del backend:
