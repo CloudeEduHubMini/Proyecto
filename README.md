@@ -65,13 +65,20 @@ El objetivo principal de este día fue el desarrollo de la API RESTful con Larav
 ### Prompst utiliados por parte del backend:
 
 # Backend: Desarrollo de la API de Tareas (Laravel)
-El rol de Backend Dev (Estudiante 3) se enfocó en implementar el acceso a la base de datos y exponer la API de lectura de tareas, esencial para la funcionalidad del Task CRUD.
+El rol de Backend Dev se enfocó en implementar el acceso a la base de datos y exponer la API de lectura de tareas, esencial para la funcionalidad del Task CRUD.
 
-# Prompts de Desarrollo (Backend Dev)
+# Prompts utilizados por parte del Backend
+"Laravel 11: Implementar Tareas CRUD multitenant, Autenticación de Usuario y Sincronización de Webhook de Teams."
 
+"Generar Base de Datos con Tablas y Datos de Prueba."
 
-# Prompts de Despliegue e Integración (DevOps Lead)
+"Configurar la Política de Seguridad para Dominio Público."
 
+"ngrok Túnel HTTPS: Comando para exponer 'http://localhost:8000' y generar un endpoint seguro para el consumo por el Frontend Dev."
+
+"Laravel Seeder Script: Generar 3 registros de prueba en la tabla 'tasks' para verificar el endpoint GET /api/tasks y asegurar el 200 OK."
+
+"Git Strategy: Comando para aplicar movimiento de código a la subcarpeta '/backend' y forzar la sincronización (push) con el repositorio remoto."
 
 # DÍA 3: EVALUACIÓN + PRESENTACIÓN
 
